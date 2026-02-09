@@ -1,0 +1,11 @@
+User
+ ↓
+Ingress (app.local)
+ ↓
+Frontend Service (ClusterIP / NodePort / LoadBalancer)
+ ↓
+Frontend Pod (nginx)
+ ↓
+Backend Service (ClusterIP)
+ ↓
+Backend Pod (http-echo)
